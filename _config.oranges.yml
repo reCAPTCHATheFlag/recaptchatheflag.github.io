@@ -274,7 +274,7 @@ cdns:
 
   # LaTeX 公式
   mathjax:
-    enable: false
+    enable: true
     url: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
 
   # 代码块复制
