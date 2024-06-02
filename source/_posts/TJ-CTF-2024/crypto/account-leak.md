@@ -89,7 +89,7 @@ $$p + q = (n - leak)//sub + sub$$
 
 $$phi = (p-1)(q-1) = pq - (p + q) + 1 = n - (p + q) + 1$$
 
-Now, in order to get `sub`, we can just brute-force it, knowing that it is a factor of $$n - leak$$  
+Now, in order to get `sub`, we can just brute-force it, knowing that it is a factor of `n - leak`
 
 ```py
 from pwn import *

@@ -32,7 +32,7 @@ Note that RSA signatures are calculated as follows:
 
 $$m^d\equiv s\;(mod\;N)$$  
 
-And the receiver of the RSA signature can raise $$s$$ to the $$e$$ power to confirm that the message is actually from the owner of the RSA private key:  
+And the receiver of the RSA signature can raise `s` to the `e` power to confirm that the message is actually from the owner of the RSA private key:  
 
 $$s^e \equiv m^{ed} \equiv m\;(mod\;N)$$  
 
@@ -48,9 +48,9 @@ $$m_2^d \equiv s_2\;(mod\;N)$$
 $$m_1^d \cdot m_2^d \equiv s_1 \cdot s_2\;(mod\;N)$$  
 $$(m_1 \cdot m_2)^d \equiv s_1 \cdot s_2\;(mod\;N)$$  
 
-Note that we have now produced a valid message and signature pair! The product of $$m_1m_2$$ is the message that corresponds to the signature $$s_1s_2 \;(mod\;N)$$  
+Note that we have now produced a valid message and signature pair! The product of ``m_1 • m_2` is the message that corresponds to the signature $$s_1s_2 \;(mod\;N)$$  
 
-Therefore, in order to forge the signature, we can first query the oracle for the signatures for two messages (I used 2 and 3) and then, after sending 0 to terminate the oracle, send the result of $$m_1m_2$$ as the message and the result of $$s_1s_2\;(mod\;N)$$ as the signature to get the flag!  
+Therefore, in order to forge the signature, we can first query the oracle for the signatures for two messages (I used 2 and 3) and then, after sending 0 to terminate the oracle, send the result of `m_1•m_2` as the message and the result of $$s_1s_2\;(mod\;N)$$ as the signature to get the flag!  
 
 Here's the implementation:  
 

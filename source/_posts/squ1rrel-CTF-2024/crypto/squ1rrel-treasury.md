@@ -214,7 +214,7 @@ You'll notice that the plaintext is decrypted by XORing the current plaintext bl
 A common attack on AES CBC is to modify the IV in order to change the result of the first plaintext block. This is because we know that the IV will not be changed, unlike the rest of the blocks which are decrypted via AES ECB mode, and so we know exactly how it would affect the first plaintext block. For instance, consider the following modification to the IV and how it would affect the first plaintext block:  
 
 $$pt_0 = AES.decrypt(ct) \oplus IV$$  
-Where $$pt_0$$ is the original plaintext, ct is the ciphertext, and the IV is the initialization vector.  
+Where `pt_0` is the original plaintext, ct is the ciphertext, and the IV is the initialization vector.  
 Let's modify the IV:  
 $$IV_{forged} = IV \oplus pt_0 \oplus b"injection string"$$  
 $$pt_1 = AES.decrypt(ct) \oplus IV_{forged} = AES.decrypt(ct) \oplus IV \oplus pt_0 \oplus b"injection string"$$  
