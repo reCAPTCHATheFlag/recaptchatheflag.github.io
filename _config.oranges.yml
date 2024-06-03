@@ -199,7 +199,7 @@ footer:
       path: https://recapthca.team/
     -
       name: IDK
-      path: javascript:alert('rctf{IDKKKkkk!}')
+      path: javascript:alert('U came too late :<')
       # path: https://github.com/zchengsite/hexo-theme-oranges
 
   # 浏览量统计
