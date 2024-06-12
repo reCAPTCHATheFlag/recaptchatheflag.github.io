@@ -196,10 +196,10 @@ footer:
     # 如：{thisYear} 会被替换为今年年份
     -
       name: Copyright © {thisYear} reCAPTCHA the Flag
-      path: https://recapthca.team/
+      path: https://recaptcha.team/
     -
       name: IDK
-      path: javascript:alert('U came too late :<')
+      path: javascript:alert('U came too late :<') 
       # path: https://github.com/zchengsite/hexo-theme-oranges
 
   # 浏览量统计
