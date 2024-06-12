@@ -1,4 +1,6 @@
 ---
+title: cinnamon dynamics
+author: nightxade
 layout: writeup
 category: BCA-CTF-2024
 chall_description:

@@ -1,4 +1,6 @@
 ---
+title: rsa encrypter
+author: nightxade
 layout: writeup
 category: BCA-CTF-2024
 chall_description:
