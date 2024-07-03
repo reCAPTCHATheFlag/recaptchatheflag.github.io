@@ -1,7 +1,6 @@
 ---
 title: Aces Aes
 layout: writeup
-category: Jersey-CTF-IV-2024
 chall_description:
 points: 1000
 solves: 4
