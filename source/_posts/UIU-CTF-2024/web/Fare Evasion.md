@@ -15,7 +15,7 @@ SIGPwny Transit Authority needs your fares, but the system is acting a tad odd. 
 [https://fare-evasion.chal.uiuc.tf/](https://fare-evasion.chal.uiuc.tf/)
 ---
 # First looks
-When pressing the "I'm a Passenger" button, we get this alert: ```
+When pressing the "I'm a Passenger" button, we get this alert: 
 ```
 Sorry passenger, only conductors are allowed right now. Please sign your own tickets.  
 hashed _RòsÜxÉÄÅ´\ä secret: a_boring_passenger_signing_key_?
