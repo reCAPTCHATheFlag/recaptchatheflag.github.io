@@ -10,4 +10,4 @@ tags:
 
 
 
-We Are reCAPTCHA the Flag, a high school ctf team.
+We are reCAPTCHA the Flag, a high school ctf team.
