@@ -194,13 +194,16 @@ a:hover {
     margin-bottom: 20px;
     align-items: center;
     line-height: 21px;
+    /* justify-content: center; /* Center the post item */
 }
 
 .post-details {
     display: flex;
-    width: 100%;
-}
+    flex-wrap: wrap; /* Allow wrapping for smaller screens */
+    align-items: baseline; /* Align items to the baseline */
+    max-width: 100%; /* Limit width to prevent overflow */
 
+}
 .post-item .time-m-d {
     flex-shrink: 0;
     margin-right: 30px;
@@ -210,14 +213,17 @@ a:hover {
     /*font-family: 'Raleway', 'Helvetica Neue', 'Arial', sans-serif;*/
 }
 
-.post-details .title {
+/* .post-details .title {
+    flex-grow: 1; /* Allow title to grow and push author to the right /
+    margin-right: 10px; /* Add some space between title and author /
+
     display: -webkit-box;
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     word-wrap: break-word;
     overflow: hidden;
     text-overflow: ellipsis;
-}
+} */
 
 .post-details .title .post-top {
     font-weight: 600;
@@ -457,6 +463,7 @@ a:hover {
 
 .post-content {
     padding-bottom: 1rem;
+    max-width: 100%;
 }
 
 .prev-or-next {
