@@ -4,18 +4,28 @@
     <% page.posts.forEach(function(item) { %>
       <div class="post-item" title="<%- item.title %>">
         <div class="time-m-d"><%- item.date.format("YYYY-MM-DD") %></div>
-        <div class="title">
-          <a href="<%- url_for(item.path) %>">
-            <% if(item.title !== "") { %>
-              <% if (item.top) { %>
-                <span><span title="<%= __('pinned') %>" class="icon iconfont icon-pin-top post-top"></span><%- item.title %></span>
-              <% } else { %>
-                <span><%- item.title %></span>
-              <% } %>
-            <% } else { %>
-              <span>untitled</span>
-            <% } %>
-          </a>
+        <div class="post-details">
+            <div class="title">
+              <a href="<%- url_for(item.path) %>">
+                <% if(item.title !== "") { %>
+                  <% if (item.top) { %>
+                    <span><span title="<%= __('pinned') %>" class="icon iconfont icon-pin-top post-top"></span><%- item.title %></span>
+                  <% } else { %>
+                    <span><%- item.title %></span>
+                  <% } %>
+                <% } else { %>
+                  <span>untitled</span>
+                <% } %>
+              </a>
+            </div>
+            <div class="author">
+                ~
+                <% if(item.author !== "") { %>
+                    <%- item.author %>
+                <% } else { %>
+                    unknown
+                <% } %>
+            </div>
         </div>
       </div>
     <% }) %>

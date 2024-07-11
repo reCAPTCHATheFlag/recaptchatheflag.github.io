@@ -25,10 +25,20 @@
       %>
       <div class="post-item" title="<%- item.title %>">
         <div class="time-m-d"><%- item.date.format("MM-DD") %></div>
-        <div class="title">
-          <a href="<%- url_for(item.path) %>">
-            <span><%- item.title %></span>
-          </a>
+        <div class="post-details">
+            <div class="title">
+              <a href="<%- url_for(item.path) %>">
+                <span><%- item.title %></span>
+              </a>
+            </div>
+            <div class="author">
+                ~
+                <% if(item.author !== "") { %>
+                    <%- item.author %>
+                <% } else { %>
+                    unknown
+                <% } %>
+            </div>
         </div>
       </div>
     <%
