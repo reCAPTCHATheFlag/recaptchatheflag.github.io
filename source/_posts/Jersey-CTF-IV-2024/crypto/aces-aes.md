@@ -5,7 +5,7 @@ chall_description:
 points: 1000
 solves: 4
 tags: crypto aes osint
-category: writeups
+category: Jersey-CTF-IV-2024
 date: 2024-3-25
 comments: false
 ---
