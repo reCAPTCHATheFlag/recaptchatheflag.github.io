@@ -28,7 +28,7 @@ author: Chara
 * [ExploitDB](https://www.exploit-db.com/) - Exploits
 * [GTFOBins](https://gtfobins.github.io/) - GTFO Bins
 * [PayloadAllTheThings](https://github.com/swisskyrepo/PayloadsAllTheThings) - Web Payloads
-
+* [PyLingual] (https://pylingual.io/) - great pyc decompiler
 
 ### Tools
 
