@@ -7,7 +7,7 @@ chall_description:
 points: 491
 solves: 78
 tags: web
-date: 2024-06-04
+date: 2024-08-04
 comments: false
 ---
 Writing as a Service! Author: NoobMaster + NoobHacker
