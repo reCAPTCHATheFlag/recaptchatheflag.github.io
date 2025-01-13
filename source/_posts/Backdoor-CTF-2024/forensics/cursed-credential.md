@@ -1,5 +1,5 @@
 ---
-title: Cursed Credential
+title: cursed credential
 author: nightxade
 layout: writeup
 category: Backdoor-CTF-2024

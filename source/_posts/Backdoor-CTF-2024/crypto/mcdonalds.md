@@ -1,5 +1,5 @@
 ---
-title: I Like McDonalds
+title: i like mcdonalds
 author: nightxade
 layout: writeup
 category: Backdoor-CTF-2024
