@@ -26,7 +26,7 @@ disassemble
 Disassemble instead of executing
 the specified file doesn\'t have the .mimi extension
 ```
-Mostly, these are function arguments, if we follow control flow we see the following functions (the github repo is not public as of doing the challenge):
+Mostly, these are program arguments, if we follow control flow we see the following functions (the github repo is not public as of doing the challenge):
 ```go
 github_com_Lexterl33t_mimicompiler_compiler_Lifter_Compile
 github_com_Lexterl33t_mimicompiler_vm_NewVM
