@@ -15,5 +15,3 @@ A new and obscure programming language, MimiLang, has surfaced. It runs on a pec
 
 ---
 placeholder writeup
-
-	placeholder flag
