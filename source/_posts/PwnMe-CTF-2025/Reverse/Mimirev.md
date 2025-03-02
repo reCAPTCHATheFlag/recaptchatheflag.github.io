@@ -43,7 +43,7 @@ github_com_Lexterl33t_mimicompiler_vm_VM_Sstore
 github_com_Lexterl33t_mimicompiler_vm_VM_Add
 github_com_Lexterl33t_mimicompiler_vm_VM_Sub
 ```
-The most important being `github_com_Lexterl33t_mimicompiler_vm_VM_VerifyProof`, since it clearly isn't a standard instruction and it's purpose will become pretty obvious when we take a look at it later.
+The most important being `github_com_Lexterl33t_mimicompiler_vm_VM_VerifyProof`, since it clearly isn't a standard instruction and its purpose will become pretty obvious when we take a look at it later.
 # Calling VerifyProof
 Using the custom language, how do we call VerifyProof? We can see in `Lifter_Compile` (prefix (github_com...) will be omitted from now on) that there is a function called `Parser_Parse`, within that we see `Parser_parse`, within *that* one we see `Parser_GetStatement`, and within that function we see `compiler_Parser_VerifyProofStatement`. In that function we see the string "verifyProof" so it can be assumed (and confirmed through testing) that we can call it like a standard function: `verifyProof()` in the .mimi file.
 # VM_VerifyProof
