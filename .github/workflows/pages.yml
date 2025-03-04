@@ -1,9 +1,6 @@
 name: Pages
 
-on:
-  push:
-    branches:
-      - main  # default branch
+on:[push]
 
 jobs:
   build:
