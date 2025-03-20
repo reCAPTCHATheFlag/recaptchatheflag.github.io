@@ -126,7 +126,7 @@ friends:
   -
     nickname: ByteBrew
     site: 
-    meta: Rev / Web / Misc
+    meta: Rev / Web / Pwn / Misc
   -
     nickname: deciphr
     site:
@@ -160,7 +160,7 @@ footer:
     -
       name: github
       icon: github
-      path: https://github.com/zchengsite/hexo-theme-oranges
+      path: https://github.com/reCAPTCHATheFlag/recaptchatheflag.github.io
     -
       name: rss
       icon: rss
@@ -198,8 +198,8 @@ footer:
       name: Copyright © {thisYear} reCAPTCHA the Flag
       path: https://recaptcha.team/
     -
-      name: IDK
-      path: javascript:alert('U came too late :<') 
+      name: reCAPTCHA
+      path: javascript:alert('Verdict: you are a robot :(') 
       # path: https://github.com/zchengsite/hexo-theme-oranges
 
   # 浏览量统计
@@ -224,10 +224,10 @@ footer:
         name: "Site have been visited by "
         unit: " people"
 
-# 文章搜索
-search:
-  enable: true
-  placeholder: 
+# 文章搜索 this doesn't work rn just fyi
+#search:
+#  enable: true
+#  placeholder: 
 
 # 深/浅配色切换
 colorSwitch:
