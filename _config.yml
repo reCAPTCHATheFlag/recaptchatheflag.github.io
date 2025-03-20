@@ -108,6 +108,11 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: oranges
 
+# search maybe
+search:
+  path: search.xml
+  field: post
+  
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
