@@ -199,7 +199,7 @@ footer:
       path: https://recaptcha.team/
     -
       name: reCAPTCHA
-      path: javascript:alert('Verdict: you are a robot :(') 
+      path: javascript:alert('Verdict\: you are a robot \:\(') 
       # path: https://github.com/zchengsite/hexo-theme-oranges
 
   # 浏览量统计
